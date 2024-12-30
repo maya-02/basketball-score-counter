@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    width: 575px;
+    height: 385px;
+    margin-left:auto;
+    margin-right:auto; 
+}
+
+.subcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.increment-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top:25px;
+    width: 155px;
+    height: 45px;
+    top: 271px;
+    left: 82px;
+    border-radius: 5px;
+}
+
+button{
+    width: 45px;
+    height: 45px;
+    top: 271px;
+    left: 337px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    font-family: Cursed Timer ULiL, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.81px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background:none;
+    margin-right:9px;
+}
+
+button:hover{
+    background-color: #F94F6D;
+    color: white;
+}
+
+h3{
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35.89px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #EEEEEE;
+    margin-bottom:25px;
+}
+
+.score{
+    width: 180px;
+    height: 120px;
+    top: 125px;
+    left: 337px;
+    border-radius: 5px;
+    background-color:#080001;
+    font-family: 'Cursed Timer ULiL', sans-serif;                                          
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 126.67px;
+    text-align: center;
+    color:#F94F6D;
+    margin:0;
+
+}
+
+#new-game-btn{
+    width:90px;
+    margin-top:30px;
+    font-size: 12px;
+}
+
+.leader{
+    color:#00FF40;
+}
+
